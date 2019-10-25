@@ -1,0 +1,22 @@
+name: dial
+
+description: |
+  Alice calls Bob - demonstration of how to dial with ARI
+
+version: 0.1.0
+
+authors:
+  - Andrius Kairiukstis <k@andrius.mobi>
+
+targets:
+  app:
+    main: src/app.cr
+
+crystal: 0.31.1
+
+license: MIT
+
+dependencies:
+  asterisk:
+    github: ctiapps/asterisk
+    version: ~> 0.1.0

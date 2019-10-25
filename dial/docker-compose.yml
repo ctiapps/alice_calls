@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  demo:
+    build:
+      context: .
+      # dockerfile: docker/Dockerfile
+      dockerfile: docker/Dockerfile-production
+    depends_on:
+      - asterisk
+    volumes:
+      - .:/src
+
+  asterisk:
+    build:
+      context: docker/asterisk
+      dockerfile: Dockerfile
