@@ -1,2 +1,4 @@
-# alicecalls
-Alice calls Bob: demo cases for http://github.com/ctiapps/asterisk
+Alice calls Bob
+===============
+
+Alice calls Bob: Examples and demos of our [Crystal-lang Asterisk PBX library](http://github.com/ctiapps/asterisk).
